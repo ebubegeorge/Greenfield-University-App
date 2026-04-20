@@ -1,4 +1,9 @@
 import { Routes, Route } from "react-router-dom";
+import MainLayout from "../Layout/MainLayout";
+
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+
 import About from '../Pages/About'
 import Admmissions from '../Pages/Admissions'
 import Contact from '../Pages/Contact'
