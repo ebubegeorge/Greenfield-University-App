@@ -1,15 +1,15 @@
 import { Routes, Route } from "react-router-dom";
 import MainLayout from "../Layout/MainLayout";
 
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar/Navbar";
+import Footer from "../Components/Footer/Footer";
 
-import About from '../Pages/About'
-import Admmissions from '../Pages/Admissions'
-import Contact from '../Pages/Contact'
-import Home from '../Pages/Home'
-import News from '../Pages/News'
-import Programs from '../Pages/Programs'
+import About from '../Pages/About/About'
+import Admmissions from '../Pages/Admissions/Admissions'
+import Contact from '../Pages/Contact/Contact'
+import Home from '../Pages/Home/Home'
+import News from '../Pages/News/News'
+import Programs from '../Pages/Programs/Programs'
 
 
 const AppRoutes = () => {
