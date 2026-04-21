@@ -5,7 +5,10 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <nav className='navbar'>
-        <Link to="/" className='nav-logo'><img src="faviconlogo.png" alt="Logo" /></Link>
+        <Link to="/" className='nav-logo'>
+            <img src="faviconlogo.png" alt="Logo" />
+            <span className='logo-text'><img src="GFUTEXTLOGO.png" alt="Logo" /></span>
+        </Link>
             <ul className='nav-links'>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
