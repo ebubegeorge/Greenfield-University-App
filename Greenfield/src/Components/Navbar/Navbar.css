@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #0d3b12;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,9 +30,9 @@
 }
 
 .nav-links a {
-  color: #fff;
+  color: #0d3b12;
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s ease;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Poppins', sans-serif;
 }
