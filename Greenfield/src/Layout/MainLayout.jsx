@@ -3,17 +3,17 @@ import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 
 const MainLayout = () => {
-  return(
-    <>
-    <Navbar/>
+  return (
+    <div className="layout-wrapper">
+      <Navbar />
 
-    <main>
-      <Outlet/>
-    </main>
+      <div className="page-content">
+        <Outlet />
+      </div>
 
-    <Footer/>
-    </>
+      <Footer />
+    </div>
   );
-}
+};
 
 export default MainLayout;
