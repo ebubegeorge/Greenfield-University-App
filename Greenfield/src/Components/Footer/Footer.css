@@ -4,7 +4,7 @@
   padding: 30px 0 10px;
 }
 
-/* MAIN 3-COLUMN LAYOUT */
+
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -16,7 +16,7 @@
   gap: 40px;
 }
 
-/* LEFT */
+
 .footer-brand {
   display: flex;
   align-items: center;
@@ -29,7 +29,7 @@
   object-fit: contain;
 }
 
-/* CENTER LINKS */
+
 .footer-links {
   list-style: none;
   margin: 0;
@@ -50,13 +50,11 @@
   text-decoration: underline;
 }
 
-/* RIGHT */
 .footer-contact p {
   margin: 6px 0;
   font-size: 14px;
 }
 
-/* BOTTOM */
 .footer-bottom {
   text-align: center;
   margin-top: 25px;
