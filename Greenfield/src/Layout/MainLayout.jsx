@@ -6,14 +6,12 @@ const MainLayout = () => {
   return (
     <div className="layout-wrapper">
       <Navbar />
-
-      <div className="page-content">
+      <main className="page-content">
         <Outlet />
-      </div>
-
+      </main>
       <Footer />
     </div>
   );
-};
+}
 
 export default MainLayout;
