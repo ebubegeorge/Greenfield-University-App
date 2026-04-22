@@ -19,23 +19,24 @@
 
 .hero-content h1 {
     font-size: 42px;
+    margin-bottom: 15px;
 }
 
 .hero-content p {
     font-size: 18px;
+    margin-bottom: 20px;
 }
 
 .hero-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  display: inline-block; /* 🔥 IMPORTANT */
+  margin-top: 10px;       /* 🔥 adds space above button */
+  background-color: #2e7032;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;  /* move this here instead */
 }
 
 .hero-button:hover {
-    background-color: #0056b3;
+  background-color: #1b5e20;
 }
-
