@@ -4,7 +4,9 @@ import Navbar from '../../Components/Navbar/Navbar';
 import Footer from '../../Components/Footer/Footer';
 
 const Home = () => {
-    return (<>
+    return (
+    <>
+    <div></div>
     
         <div className="home-container">
             <Navbar />
@@ -16,5 +18,4 @@ const Home = () => {
         </>
     );
 }
-
 export default Home;
