@@ -8,6 +8,11 @@
   padding: 0 40px;
   box-sizing: border-box;
   border: 2px solid #2e7032;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 .nav-logo img {
