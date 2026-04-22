@@ -11,11 +11,11 @@ import AppRoutes from './Routes/AppRoutes'
 import { Routes, Route } from "react-router-dom";
 
 function App() {
-  
+
   return (
     <>
       <AppRoutes />
-      
+
     </>
   )
 }

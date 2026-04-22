@@ -1,34 +1,50 @@
 import React from 'react';
 import Hero from '../../Components/Hero/Hero';
 import homeHero from '../../assets/home-hero.jpg';
+import "./Home.css";
+import { Link } from 'react-router-dom';
+import studentsImg from '../../assets/studentsImg.jpg';
+import admissionsImg from '../../assets/admissionsImg.jpg';
+import campusImg from '../../assets/campusImg.jpg';
 
 const Home = () => {
     return (
-    <>   
-        <div className="home-container">
-            <Hero
-                title="Welcome to Greenfield University"
-                subtitle="Empowering the Future, One Student at a Time"
-                background={homeHero}
-            >
-            </Hero>
-            
-            {/* <h1>Welcome to Greenfield University</h1>
-            <p>This is the home page of our application.</p> */}
-        </div>
-        <div className="home-content">
-            <h2>About Greenfield University</h2>
-            <p>Greenfield University is a prestigious institution dedicated to providing quality education and fostering innovation. Our mission is to empower students with knowledge and skills to excel in their chosen fields.</p>
-        </div>
-        <div>
-            <h2>Our Programs</h2>
-            <p>We offer a wide range of programs across various disciplines, including Science, Technology, Engineering, Arts, and Humanities. Our programs are designed to meet the needs of our diverse student body and prepare them for successful careers.</p>
-        </div>
-        <div>
-            <h2>Join Us</h2>
-            <p>Become a part of the Greenfield University community and embark on a journey of learning and growth. Apply now to start your academic adventure with us!</p>
-        </div>
-    </>
+        <>
+            <div className="home-container">
+                <Hero
+                    title="Welcome to Greenfield University"
+                    subtitle="Empowering the Future, One Student at a Time"
+                    background={homeHero}
+                >
+                </Hero>
+            </div>
+            <section className='cards-section'>
+                <div className='card-container'>
+
+                    <div className='card'>
+                        <img src={studentsImg} alt="Programs" />
+                        <h3>Programs</h3>
+                        <p>Explore undergraduate and postgraduate programs</p>
+                        <Link to="/programs">Learn More</Link>
+                    </div>
+
+                    <div className='card'>
+                        <img src={admissionsImg} alt="Admissions" />
+                        <h3>Admissions</h3>
+                        <p>Start your Journey with Greenfield University</p>
+                        <Link to="/admissions">Learn More</Link>
+                    </div>
+
+                    <div className='card'>
+                        <img src={campusImg} alt="Campus Life" />
+                        <h3>Campus Life</h3>
+                        <p>Experience the vibrant community at Greenfield University</p>
+                        <Link to="/news">Learn More</Link>
+                    </div>
+
+                </div>
+            </section>
+        </>
     );
 }
 export default Home;
