@@ -28,13 +28,13 @@
 }
 
 .hero-button {
-  display: inline-block; /* 🔥 IMPORTANT */
-  margin-top: 10px;       /* 🔥 adds space above button */
+  display: inline-block;
+  margin-top: 10px;  
   background-color: #2e7032;
   color: #fff;
   padding: 10px 20px;
   border-radius: 5px;
-  text-decoration: none;  /* move this here instead */
+  text-decoration: none;
 }
 
 .hero-button:hover {
