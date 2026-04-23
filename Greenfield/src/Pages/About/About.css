@@ -36,6 +36,11 @@
     text-align: center;
 }
 
+.mission-box h3 {
+    color: #0d3b12;
+    margin-bottom: 15px;
+}
+
 .mission-box p {
     line-height: 1.6;
     color: #555;
