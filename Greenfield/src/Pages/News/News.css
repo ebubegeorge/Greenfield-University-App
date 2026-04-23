@@ -3,6 +3,12 @@
     text-align: center;
 }
 
+.news-section h2 {
+    font-size: 32px;
+    color: #0d3b12;
+    margin-bottom: 40px;
+}
+
 .news-container {
     display: flex;
     flex-wrap: wrap;
@@ -28,3 +34,4 @@
     font-size: 14px;
     color: #555;
 }
+
