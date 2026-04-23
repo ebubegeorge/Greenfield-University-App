@@ -6,14 +6,12 @@ import "./News.css";
 const News = () => {
   return (
     <>
-      {/* HERO */}
       <Hero
         title="Latest News"
         subtitle="Stay updated with events and happenings at Greenfield University"
         background={newsHero}
       />
 
-      {/* NEWS SECTION */}
       <section className="news-section">
 
         <h2>Campus News</h2>

@@ -19,7 +19,7 @@ const About = () => {
                         <h2>Who We Are</h2>
 
                         <p>
-                            Founded in 2005, Greenfield University was established with a vision
+                            Founded in 1926, Greenfield University was established with a vision
                             to provide quality education and foster innovation across disciplines.
                             From its inception, the institution has focused on building a strong
                             academic foundation that prepares students for real-world challenges.

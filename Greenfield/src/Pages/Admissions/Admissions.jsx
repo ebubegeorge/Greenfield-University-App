@@ -6,14 +6,12 @@ import "./Admissions.css";
 const Admissions = () => {
     return (
         <>
-            {/* HERO */}
             <Hero
                 title="Admissions"
                 subtitle="Start your journey with Greenfield University"
                 background={admissionsHero}
             />
 
-            {/* INFO */}
             <section className="admissions-info">
                 <h2>Apply to Greenfield University</h2>
                 <p>
@@ -26,7 +24,6 @@ const Admissions = () => {
 
                 <h2>College Admission Form</h2>
 
-                {/* PERSONAL INFO */}
                 <div className="form-group">
                     <h3>Personal Information</h3>
 
@@ -42,7 +39,6 @@ const Admissions = () => {
                     </div>
                 </div>
 
-                {/* CONTACT */}
                 <div className="form-group">
                     <h3>Contact Details</h3>
 
@@ -65,11 +61,11 @@ const Admissions = () => {
                             <option>United States</option>
                             <option>United Kingdom</option>
                             <option>Canada</option>
+                            <option>Australia</option>
                         </select>
                     </div>
                 </div>
 
-                {/* PARENT/GUARDIAN */}
                 <div className="form-group">
                     <h3>Parent / Guardian Information</h3>
 
@@ -82,7 +78,6 @@ const Admissions = () => {
                     <input type="tel" placeholder="Parent/Guardian Phone Number" />
                 </div>
 
-                {/* ACADEMIC */}
                 <div className="form-group">
                     <h3>Academic Information</h3>
 
@@ -90,7 +85,6 @@ const Admissions = () => {
 
                 </div>
 
-                {/* PROGRAM */}
                 <div className="form-group">
                     <h3>Program Selection</h3>
 
@@ -104,7 +98,6 @@ const Admissions = () => {
                     </select>
                 </div>
 
-                {/* SUBMIT */}
                 <button type="submit">Submit Application</button>
 
             </form>    </>

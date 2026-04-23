@@ -24,3 +24,72 @@ html, body, #root {
 .page-content {
   flex: 1;
 }
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .card-container,
+  .programs-container,
+  .news-container,
+  .levels-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .admissions-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .card {
+    width: 45%;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+}
