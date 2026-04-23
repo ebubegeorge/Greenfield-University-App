@@ -53,7 +53,7 @@ const Home = () => {
                     <img src={about1Img} alt="About Greenfield University" />
                 </div>
 
-                <div className='about-text'>
+                <div className='about-text1'>
                     <h2>About Greenfield University</h2>
                     <p>
                         Greenfield University is committed to excellence in education,

@@ -77,26 +77,27 @@
     object-fit: cover;
 }
 
-.about-text {
+.about-text1 {
     flex: 1;
     color: #fff;
 }
 
-.about-text h2 {
+.about-text1 h2 {
     margin-bottom: 10px;
 }
 
-.about-text p {
+.about-text1 p {
     line-height: 1.6;
     margin-bottom: 15px;
+    color: #fff;
 }
 
-.about-text a {
+.about-text1 a {
     color: #0d3b12;
     text-decoration: none;
 }
 
-.about-text a:hover {
+.about-text1 a:hover {
     text-decoration: underline;
     color: #0d3b12;
 }
