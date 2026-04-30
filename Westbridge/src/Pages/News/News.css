@@ -23,11 +23,6 @@
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     text-align: left;
-    transition: 0.3s ease;
-}
-
-.news-card :hover{
-    transform: translateY(-5px);
 }
 
 .news-card h3 {
