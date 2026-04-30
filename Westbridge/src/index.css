@@ -64,18 +64,3 @@ html, body, #root {
     width: 100%;
   }
 }
-
-@media (max-width: 1024px) {
-
-  .card {
-    width: 45%;
-  }
-
-  .hero-content h1 {
-    font-size: 36px;
-  }
-
-  .about-container {
-    flex-direction: column;
-  }
-}
