@@ -14,7 +14,7 @@ const Home = () => {
         <>
             <div className="home-container">
                 <Hero
-                    title="Welcome to Greenfield University"
+                    title="Welcome to Westbridge University"
                     subtitle="Empowering the Future, One Student at a Time"
                     background={homeHero}
                 />
@@ -33,14 +33,14 @@ const Home = () => {
                     <div className='card'>
                         <img src={admissionsImg} alt="Admissions" />
                         <h3>Admissions</h3>
-                        <p>Start your Journey with Greenfield University</p>
+                        <p>Start your Journey with Westbridge University</p>
                         <Link to="/admissions">Learn More</Link>
                     </div>
 
                     <div className='card'>
                         <img src={campusImg} alt="Campus Life" />
                         <h3>Campus Life</h3>
-                        <p>Experience the vibrant community at Greenfield University</p>
+                        <p>Experience the vibrant community at Westbridge University</p>
                         <Link to="/news">Learn More</Link>
                     </div>
 
@@ -50,13 +50,13 @@ const Home = () => {
             <section className='about-overlay'>
 
                 <div className='about-image'>
-                    <img src={about1Img} alt="About Greenfield University" />
+                    <img src={about1Img} alt="About Westbridge University" />
                 </div>
 
                 <div className='about-text1'>
-                    <h2>About Greenfield University</h2>
+                    <h2>About Westbridge University</h2>
                     <p>
-                        Greenfield University is committed to excellence in education,
+                        Westbridge University is committed to excellence in education,
                         research, and innovation. We prepare students for global impact.
                     </p>
 
@@ -97,7 +97,7 @@ const Home = () => {
                 }}
             >
                 <div className='join-overlay'>
-                    <h2>Join Greenfield University</h2>
+                    <h2>Join Westbridge University</h2>
                     <p>Take the next step toward your future. Apply now and become part of our community!</p>
                     <Link to="/admissions">Apply Now</Link>
                 </div>

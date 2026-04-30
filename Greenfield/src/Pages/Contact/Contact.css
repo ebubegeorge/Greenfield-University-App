@@ -15,7 +15,7 @@
 }
 
 .contact-info h2 {
-    color: #0d3b12;
+    color: #111827;
     margin-bottom: 15px;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .contact-form button {
-    background-color: #2e7d32;
+    background-color: #0056b3;
     color: #fff;
     padding: 12px;
     border: none;
@@ -48,5 +48,5 @@
 }
 
 .contact-form button:hover {
-    background-color: #1b5e20;
+    background-color: #234C90;
 }

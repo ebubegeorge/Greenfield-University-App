@@ -7,7 +7,7 @@ const About = () => {
     return (
         <>
             <Hero
-                title="About Greenfield University"
+                title="About Westbridge University"
                 subtitle="Empowering the future, one student at a time."
                 background={about1Img}
             />
@@ -19,14 +19,14 @@ const About = () => {
                         <h2>Who We Are</h2>
 
                         <p>
-                            Founded in 1926, Greenfield University was established with a vision
+                            Founded in 1926, Westbridge University was established with a vision
                             to provide quality education and foster innovation across disciplines.
                             From its inception, the institution has focused on building a strong
                             academic foundation that prepares students for real-world challenges.
                         </p>
 
                         <p>
-                            At Greenfield University, we believe education goes beyond the classroom.
+                            At Westbridge University, we believe education goes beyond the classroom.
                             Our programs are designed to develop critical thinking, creativity, and
                             leadership skills that empower students to excel in their chosen careers.
                         </p>
@@ -39,7 +39,7 @@ const About = () => {
                         </p>
 
                         <p>
-                            Today, Greenfield University stands as a growing institution committed
+                            Today, Westbridge University stands as a growing institution committed
                             to excellence, innovation, and global impact.
                         </p>
 

@@ -8,7 +8,7 @@ const News = () => {
     <>
       <Hero
         title="Latest News"
-        subtitle="Stay updated with events and happenings at Greenfield University"
+        subtitle="Stay updated with events and happenings at Westbridge University"
         background={newsHero}
       />
 
@@ -19,9 +19,9 @@ const News = () => {
         <div className="news-container">
 
           <div className="news-card">
-            <h3>Greenfield Celebrates 100 Years</h3>
+            <h3>Westbridge Celebrates 100 Years</h3>
             <p>
-              Greenfield University marked its 100th anniversary with a grand celebration
+              Westbridge University marked its 100th anniversary with a grand celebration
               featuring alumni, students, and faculty members.
             </p>
           </div>

@@ -19,9 +19,9 @@ const Contact = () => {
 
           <div className="contact-info">
             <h2>Get in Touch</h2>
-            <p>Email: info@greenfield.edu</p>
+            <p>Email: info@westbridge.edu</p>
             <p>Phone: +123 456 7890</p>
-            <p>Address: 123 Greenfield Avenue, Lagos, Nigeria</p>
+            <p>Address: 123 Westbridge Avenue, Lagos, Nigeria</p>
           </div>
 
           <form className="contact-form">

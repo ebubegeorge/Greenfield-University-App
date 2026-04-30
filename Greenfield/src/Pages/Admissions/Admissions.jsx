@@ -8,12 +8,12 @@ const Admissions = () => {
         <>
             <Hero
                 title="Admissions"
-                subtitle="Start your journey with Greenfield University"
+                subtitle="Start your journey with Westbridge University"
                 background={admissionsHero}
             />
 
             <section className="admissions-info">
-                <h2>Apply to Greenfield University</h2>
+                <h2>Apply to Westbridge University</h2>
                 <p>
                     We welcome students from diverse backgrounds. Complete the form
                     below to begin your application process.

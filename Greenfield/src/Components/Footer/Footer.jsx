@@ -10,8 +10,7 @@ const Footer = () => {
 
 
         <div className='footer-brand'>
-          <img src="faviconlogo.png" alt="logo icon" />
-          <img src="GFUTEXTLOGO.png" alt="Greenfield" />
+          <img src="westbridgetextlogo.png" alt="Westbridge" />
         </div>
 
 
@@ -22,14 +21,14 @@ const Footer = () => {
         </ul>
 
         <div className='footer-contact'>
-          <p>Email: info@greenfield.edu</p>
+          <p>Email: info@westbridge.edu</p>
           <p>Phone: +1234567890</p>
         </div>
 
       </div>
 
       <div className='footer-bottom'>
-        <p>&copy; 2026 Greenfield University. All rights reserved.</p>
+        <p>&copy; 2026 Westbridge University. All rights reserved.</p>
       </div>
 
     </footer>

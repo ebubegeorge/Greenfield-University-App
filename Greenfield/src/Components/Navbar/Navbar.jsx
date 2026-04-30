@@ -10,9 +10,8 @@ const Navbar = () => {
         <nav className='navbar'>
 
             <Link to="/" className='nav-logo'>
-                <img src="faviconlogo.png" alt="Logo" />
                 <span className='logo-text'>
-                    <img src="GFUTEXTLOGO.png" alt="Logo Text" />
+                    <img src="westbridgetextlogo.png" alt="Logo Text" />
                 </span>
             </Link>
 
