@@ -1,0 +1,47 @@
+.about-main {
+    padding: 60px 20px;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.about-text {
+    width: 100%;
+}
+
+.about-text h2 {
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.mission-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+    flex: wrap;
+}
+
+.mission-box {
+    max-width: 400px;
+    text-align: center;
+}
+
+.mission-box h3 {
+    color: #111827;
+    margin-bottom: 15px;
+}
+
+.mission-box p {
+    line-height: 1.6;
+    color: #555;
+}

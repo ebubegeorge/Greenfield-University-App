@@ -1,0 +1,86 @@
+.levels-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.levels-section h2 {
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.levels-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.level-card {
+    width: 260px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.level-card:hover {
+    transform: translateY(-5px);
+}
+
+.level-card h3 {
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.level-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.programs-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.programs-section h2 {
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.programs-section p {
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.programs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.program-card {
+    width: 280px;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+    transition: 0.3s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+}
+
+.program-card h3 {
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.program-card p {
+    font-size: 14px;
+    color: #666;
+}
