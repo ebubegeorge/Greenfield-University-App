@@ -1,7 +1,7 @@
 import './App.css'
 import { Routes, Route } from "react-router-dom";
 import About from './Pages/About/About'
-import Admmissions from './Pages/Admissions/Admissions'
+import Admissions from './Pages/Admissions/Admissions'
 import Contact from './Pages/Contact/Contact'
 import Home from './Pages/Home/Home'
 import News from './Pages/News/News'
@@ -15,7 +15,7 @@ const App = () => {
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/admissions" element={<Admmissions />} />
+          <Route path="/admissions" element={<Admissions />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/news" element={<News />} />
           <Route path="/programs" element={<Programs />} />
