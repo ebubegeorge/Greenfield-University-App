@@ -42,7 +42,7 @@ const Admissions = () => {
                 <div className="form-group">
                     <h3>Contact Details</h3>
 
-                    <input type="tel" placeholder="Phone Number" required />
+                    <input type="number" placeholder="Phone Number" required />
 
                     <input type="text" placeholder="Permanent Address" required />
 
@@ -75,7 +75,7 @@ const Admissions = () => {
                         <input type="text" placeholder="Last Name" />
                     </div>
 
-                    <input type="tel" placeholder="Parent/Guardian Phone Number" />
+                    <input type="number" placeholder="Parent/Guardian Phone Number" />
                 </div>
 
                 <div className="form-group">
