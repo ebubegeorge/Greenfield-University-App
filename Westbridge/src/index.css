@@ -64,3 +64,63 @@ html, body, #root {
     width: 100%;
   }
 }
+
+@media (max-width: 480px) {
+
+  /* GLOBAL RESET */
+  * {
+    box-sizing: border-box;
+  }
+
+  /* GENERAL TEXT */
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  /* LAYOUT DEFAULT */
+  .container,
+  section {
+    padding: 10px 15px;
+  }
+
+  /* FLEX → STACK EVERYTHING */
+  .flex,
+  .row {
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  /* IMAGES */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* FORMS */
+  input,
+  select,
+  textarea {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  /* BUTTONS */
+  button {
+    width: 100%;
+    padding: 12px;
+  }
+
+}

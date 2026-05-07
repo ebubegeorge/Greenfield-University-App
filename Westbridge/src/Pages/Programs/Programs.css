@@ -55,7 +55,8 @@
 }
 
 .programs-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
